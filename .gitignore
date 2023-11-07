@@ -1,0 +1,6 @@
+storage/
+.chainlit/
+
+__pycache__/
+.idea/
+storage/
