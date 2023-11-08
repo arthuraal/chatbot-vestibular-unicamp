@@ -28,6 +28,7 @@ selection process, where students will have the opportunity to apply their AI kn
 
 ### Prerequisites
 
+- Python 3.9+
 - OpenAI API Key (obtainable from the OpenAI platform)
 
 ### Installation

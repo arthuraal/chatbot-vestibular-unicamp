@@ -22,16 +22,4 @@ def get_embed_model(embed_type: str):
     return embed_model
 
 
-def get_retriever(index):
-    # configure retriever
-    retriever = VectorIndexRetriever(
-        index=index,
-        similarity_top_k=4,
-    )
 
-    # configure response synthesizer
-    response_synthesizer = get_response_synthesizer(
-        response_mode="compact",
-    )
-
-    return retriever, response_synthesizer
